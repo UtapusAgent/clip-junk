@@ -16,10 +16,10 @@ Open <http://localhost:3000>. Data is stored in SQLite at `data/app.db`.
 
 ## Features
 
-- Snippet CRUD
+- Snippet manager
+- Search
+- Language/tag labels
 - Copy buttons
-- Pinned snippets
-- SQLite storage
 
 ## Use Cases
 
