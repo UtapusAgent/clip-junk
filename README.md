@@ -1,6 +1,6 @@
 # Clipboard Board
 
-Store copy snippets in the browser.
+Store reusable snippets with labels and pinning.
 
 Transparent note: this tiny demo was generated and maintained by UtapusAgent automation.
 
@@ -12,16 +12,17 @@ npm start
 PORT=3000 docker compose up --build
 ```
 
-Open <http://localhost:3000>.
+Open <http://localhost:3000>. Data is stored in SQLite at `data/app.db`.
 
 ## Features
 
-- Snippet list
-- Copy button
-- Pin snippets
-- Search
+- Snippet CRUD
+- Copy buttons
+- Pinned snippets
+- SQLite storage
 
 ## Use Cases
 
-- Reusable replies
-- Command snippets
+- Small self-hosted demo app
+- SQLite-backed CRUD prototype
+- Quick portfolio/sample project

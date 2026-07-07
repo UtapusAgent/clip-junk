@@ -1,0 +1,1 @@
+const APP={"slug":"clip-junk","name":"Clipboard Board","desc":"Store reusable snippets with labels and pinning.","features":["Snippet CRUD","Copy buttons","Pinned snippets","SQLite storage"],"fields":[["title","Label","text"],["body","Snippet","textarea"],["lang","Language","text"],["pinned","Pinned","checkbox"]],"view":"clips"};
